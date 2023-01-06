@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+
+body{
+    background-color: rgb(24, 107, 83);
+}
+
+section{
+    padding: 1.7rem 10%;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.5rem 1.9rem;
+    border-radius: 30rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #0e0e0e;
+    background-color: #7efc5e;
+    cursor: pointer;
+  }
+
+ /*! header start */
+.header .logo img {
+    height: 7rem;
+  }
+
+  .header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 2rem 10%;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 16px 2px rgb(69, 62, 62);
+    position: sticky;
+    top: 10px;
+    z-index: 1000;
+  }
+
+  .header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.4rem;
+    color: #0e0e0e;
+    border-bottom: 0.1rem solid transparent;
+  }
+
+  .header .navbar .active,
+.header .navbar a:hover {
+  border-color: #2a2828;
+  padding-bottom: 0.5rem;
+}
+
+.header .buttons button {
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background-color: transparent;
+    
+  }
+
+  /*! header end */
+
+  /*! home start */
+  .home{
+    min-height: 100vh;
+    background: url(../images/anasayfa.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -184px;
+    display: flex;
+    align-items: center;
+  }
+  .home .content {
+    max-height: 60rem;
+  }
+  .home .content h3 {
+    text-shadow: 2px 2px 3px #000;
+    font-size: 5rem;
+    color: #fff;
+    line-height: 5rem;
+    font-weight: 500;
+  }
+  .home .content p {
+    text-shadow: 2px 2px 3px #000;
+    font-size: 1.5rem;
+    font-weight: 380;
+    color: #fff;
+  
+    line-height: 2.1rem;
+    padding: 1rem 0;
+  }
+  /*! home end */
+
+  .header .buttons button a{
+    color: black;
+  }

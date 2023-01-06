@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+section{
+    padding: 1.7rem 10%;
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.5rem 1.3rem;
+    border-radius: 30rem;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #0e0e0e;
+    background-color: #7efc5e;
+    cursor: pointer;
+  }
+
+.header .logo img {
+    height: 6rem;
+  }
+
+  .header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 2rem 10%;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 16px 2px rgb(145, 100, 100);
+    position: sticky;
+    top: 10px;
+    z-index: 1000;
+  }
+
+  .header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.4rem;
+    color: #0e0e0e;
+    border-bottom: 0.1rem solid transparent;
+  }
+
+  .header .navbar .saha,
+.header .navbar a:hover {
+  border-color: #2a2828;
+  padding-bottom: 0.5rem;
+}
+
+.header .buttons button {
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background-color: transparent;
+    
+  }
+
+  /*! saha start */
+  .menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    box-shadow: 0px 0px 10px 30px rgb(140, 223, 92);
+  
+  
+  }
+  
+  .menu .box-container .box{
+    padding: 3.5rem;
+    margin: 4.5rem;
+    background-color: #fff;
+    border-radius: 3rem;
+    background-color: #fff;
+    min-height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px 16px rgb(208, 191, 136);
+
+  }
+  
+  .menu .box-container .box img{
+    width: 250px;
+    object-fit: cover;
+  }

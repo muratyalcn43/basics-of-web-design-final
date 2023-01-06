@@ -1,0 +1,13 @@
+.duyuru .yazi{
+
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: aquamarine;
+    border-radius: 15px;
+
+}
+
+body{
+    background-color: aquamarine;
+}

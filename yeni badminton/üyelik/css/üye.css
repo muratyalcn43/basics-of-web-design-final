@@ -1,0 +1,34 @@
+body {
+    font-family: Verdana, monospace, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: justify;
+    min-height: 800px;
+    background-color: aqua;
+    text-transform: capitalize;
+}
+.home .content{
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    position: relative;
+    margin: auto;
+    
+}
+
+.home .content h3{
+    font-size: 40px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: brown;
+}
+
+.home .content p{
+    font-size: 20px;
+}
+
+.home .content h3 img{
+    width: px;
+    align-items: center;
+    justify-content: space-between;
+}
